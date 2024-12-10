@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>猪猪侠</title>
+	</head>
+	<style>
+		body{
+			background-color: beige;
+			margin: 0px;
+			padding: 0px;
+		}
+		#main{
+			width: 100%;
+			height: 640px;
+			background-color: white;
+			position: relative;
+		}
+		#main .mainImg{
+			width: 30%;
+			height: 500px;
+			margin-left: 60px;
+		}
+		/* main开头 */
+		#mainHeader{
+			width: 100%;
+			height: 50px;
+			line-height: 50px;
+			font-size: 36px;
+			text-align: center;
+			font-weight: bold;
+			padding-top: 20px;
+			margin-bottom: 40px;
+		}
+		#mainHeader:after{
+			content:'—————';
+		}
+		#mainHeader:before{
+			content: '—————';
+		}
+		/*main主体*/
+		.mainRight{
+			position: absolute;
+			top: 20%;
+			left: 40%;
+			width: 50%;
+		}
+		.mainRight h1{
+			font-family: "楷体";
+		}
+		.mainRight p{
+			text-indent: 2em;
+			font-size: 24px;
+			margin-bottom: 20px;
+			font-family: "仿宋";
+		}
+		.mainRight p:hover{
+			color: gray;
+			padding: 10px 0px 10px 0px;
+		}
+		#allImg{
+			width: 100%;
+			height: 600px;
+			background-color: white;
+		}
+		#allImgHeader{
+			width: 100%;
+			height: 50px;
+			line-height: 50px;
+			font-size: 36px;
+			text-align: center;
+			font-weight: bold;
+			padding-top: 20px;
+			margin-bottom: 40px;
+			background-color:pink ;
+		}
+		#allImgHeader:after{
+			content:'—————';
+		}
+		#allImgHeader:before{
+			content: '—————';
+		}
+		#allImg img{
+			height: 450px;
+			width: 18%;
+			margin-right: 20px;
+			border: 3px solid grey;
+			transition: 0.2s;
+		}
+		.allImg1{
+			margin-left: 15px;
+		}
+		#allImg .allImg5{
+			margin-right: 0px;
+		}
+		#allImg img:hover{
+			box-shadow: 2px 2px 10px 2px black;
+			transform: translate3d(5deg,5deg,5deg);
+		}
+	</style>
+	<link rel="stylesheet" href="public.css" />
+	<body>
+		<img src="img/0.jpg" alt="" class="header" />
+		<div id="nav">
+			<a href="wangzhanshouye.html">网站首页</a>
+			<a href="renwujieshao.html">人物介绍</a>
+			<a href="tupianxiangce.html">图片相册</a>
+			<a href="juqingjieshao.html">剧情介绍</a>
+			<a href="guanyuwomen.html">关于我们</a>
+		</div>
+		<div id="main">
+			<div id="mainHeader">&nbsp;猪猪侠&nbsp;</div>
+			<img src="img/R-C.jpg" alt="" class="mainImg" />
+			<div class="mainRight">
+				<h1>序言</h1>
+				
+				<p>《猪猪侠》是由广东咏声动漫股份有限公司制作[1]，
+				王巍、古志斌执导，王巍担任编剧，陆双、祖晴、高全胜等配音
+				的原创3D系列动画，第一季于2006年在中国大陆首播[2]。
+				</p>
+				
+				<p>该系列动画讲述了一个爱耍小聪明、乐观勇敢的小猪
+				—“猪猪侠”，是充满强烈时代气息的快乐化身，围绕它发生
+				的一系列成长逆袭故事[3][4][5]
+				</p>
+				<p>
+					2011年6月10日，《猪猪侠5之积木世界的童话故事》
+					获得第17届上海电视节闭幕式暨白玉兰奖最佳国产动
+					画片金奖[6]。2016年9月29日，该动画获得第13届中
+					国动漫金龙奖颁奖典礼金龙奖榜单“最佳动漫角色奖”[7]。
+				</p>
+			</div>
+		</div>
+		<div id="allImg">
+			<div id="allImgHeader">&nbsp;相册&nbsp;</div>
+			<img src="img/zhuzhuxia.jpg" alt="" class="allImg1"/>
+			<img src="img/bobi.jpg" alt="" />
+			<img src="img/daidai.jpg" alt="" />
+			<img src="img/feifei.jpg" alt="" />
+			<img src="img/chaorenqiang.jpg" alt="" class="allImg5" />
+		</div>
+		<div id="footer">
+			2024@_TangZhiyu_©所有
+		</div>
+	</body>
+</html>

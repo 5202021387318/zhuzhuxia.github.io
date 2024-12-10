@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>猪猪侠</title>
+	</head>
+	<style>
+		#mainHeader{
+			width: 100%;
+			height: 50px;
+			line-height: 50px;
+			font-size: 36px;
+			text-align: center;
+			font-weight: bold;
+			padding-top: 20px;
+			margin-bottom: 40px;
+		}
+		#mainHeader:after{
+			content:'—————';
+		}
+		#mainHeader:before{
+			content: '—————';
+		}
+		#main{
+			width: 100%;
+			height: 500px;
+		}
+		.input{
+			width: 500px;
+			height: 300px;
+			background-color: aqua;
+			margin: auto;
+		}
+		.inputText,.inputPassword{
+			width: 400px;
+			height: 40px;
+			line-height: 40px;
+			margin-top: 10px;
+			border-radius: 50px;
+			margin-left: 0px;
+		}
+		.inputText{
+			margin-top: 50px;
+		}
+		span{
+			margin-left:15px ;
+			font-weight: 500;
+		}
+		.inputSubmit{
+			width: 405px;
+			height: 30px;
+			line-height: 30px;
+			margin-left: 14%;
+			margin-top: 20px;
+			border-radius: 50px;
+		}
+		.foot{
+			text-align: right;
+			margin-right: 30px;
+			margin-top: 20px;
+			color: #999;
+		}
+		.foot a{
+			text-decoration: none;
+			color: #999;
+		}
+		.foot a:hover{
+			text-decoration: underline;
+		}
+	</style>
+	<link rel="stylesheet" href="public.css" />
+	<body>
+		<img src="img/4.jpg" alt="" class="header" />
+		<div id="nav">
+			<a href="wangzhanshouye.html">网站首页</a>
+			<a href="renwujieshao.html">人物介绍</a>
+			<a href="tupianxiangce.html">图片相册</a>
+			<a href="juqingjieshao.html">剧情介绍</a>
+			<a href="guanyuwomen.html" class="a_style">关于我们</a>
+		</div>
+		<div id="main">
+			<div id="mainHeader">&nbsp;关于我们&nbsp;</div>
+			<div class="input">
+				<span>账户：</span>
+				<input type="text"  placeholder="请输入账号..." class="inputText"/>
+				<br />
+				<span>密码：</span>
+				<input type="password" placeholder="请输入密码..." class="inputPassword" />
+				<br />
+				<input type="submit" value="登录" class="inputSubmit" />
+				<div class="foot">
+					<a href="">忘记密码</a>
+					|
+					<a href="">查找账户</a>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			2024@_TangZhiyu_©所有
+		</div>
+	</body>
+</html>

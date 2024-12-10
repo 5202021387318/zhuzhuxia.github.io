@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>猪猪侠</title>
+	</head>
+	<style>
+		#mainHeader{
+			width: 100%;
+			height: 50px;
+			line-height: 50px;
+			font-size: 36px;
+			text-align: center;
+			font-weight: bold;
+			padding-top: 20px;
+			margin-bottom: 100px;
+		}
+		#mainHeader:after{
+			content:'—————';
+		}
+		#mainHeader:before{
+			content: '—————';
+		}
+		#main{
+			width: 100%;
+			height: 1000px;
+		}
+		#main img{
+			width: 300px;
+			height: 400px;
+			border: 1px solid black;
+			transition: 0.2s;
+		}
+		#main img:hover{
+			box-shadow: 5px 5px 20px 2px black;
+			transform:rotate(1deg);
+		}
+	</style>
+	<link rel="stylesheet" href="public.css" />
+	<body>
+		<img src="img/2.jpg" alt="" class="header" />
+		<div id="nav">
+			<a href="wangzhanshouye.html">网站首页</a>
+			<a href="renwujieshao.html">人物介绍</a>
+			<a href="tupianxiangce.html" class="a_style">图片相册</a>
+			<a href="juqingjieshao.html">剧情介绍</a>
+			<a href="guanyuwomen.html">关于我们</a>
+		</div>
+		<div id="main">
+			<div id="mainHeader">&nbsp;图片相册&nbsp;</div>
+			<img src="img/p1.jpg" alt="" />
+			<img src="img/p2.jpg" alt="" />
+			<img src="img/p3.jpg" alt="" />
+			<img src="img/p4.jpg" alt="" />
+			<img src="img/p5.jpg" alt="" />
+			<img src="img/p6.jpg" alt="" />
+			<img src="img/p7.jpg" alt="" />
+			<img src="img/p8.jpg" alt="" />
+			<img src="img/p9.jpg" alt="" />
+			<img src="img/p10.jpg" alt="" />
+		</div>
+		<div id="footer">
+			2024@_TangZhiyu_©所有
+		</div>
+	</body>
+</html>

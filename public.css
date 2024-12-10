@@ -1,0 +1,76 @@
+.header{
+	width: 99%;
+	height: 550px;
+	position: relative;
+	left: 0.5%;
+	top: 0%;
+}
+#nav{
+	background-color: pink;
+	height: 50px;
+	line-height: 50px;
+	width: 100%;
+	position: relative;
+	margin-top: -10px;
+}
+#nav a:hover{
+	background-color: #999;
+}
+#nav a:nth-child(1){
+	height: 50px;
+	line-height: 50px;
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	padding-left: 20px;
+}
+#nav a:nth-child(2){
+	position: absolute;
+	height: 50px;
+	line-height: 50px;
+	position: absolute;
+	left: 20%;
+	top: 0%;
+}
+#nav a:nth-child(3){
+	position: absolute;
+	height: 50px;
+	line-height: 50px;
+	position: absolute;
+	left: 40%;
+	top: 0%;
+}
+#nav a:nth-child(4){
+	position: absolute;
+	height: 50px;
+	line-height: 50px;
+	position: absolute;
+	left: 60%;
+	top: 0%;
+}
+#nav a:nth-child(5){
+	position: absolute;
+	height: 50px;
+	line-height: 50px;
+	position: absolute;
+	left: 80%;
+	top: 0%;
+}
+ #nav a:nth-child(n){
+	 text-align: center;
+	 text-decoration: none;
+	 color: white;
+	 width: 20%;
+ }
+ #footer{
+	 text-align: center;
+	 height: 40px;
+	 line-height: 40px;
+	 font-size: 12px;
+	 width: 100%;
+	 background-color: darkgrey;
+ }
+ .a_style{
+	 background-color: red;
+	 box-shadow: 2px 4px 10px 2px black;
+ }
